@@ -1,0 +1,83 @@
+Day 1: Introduction to Python
+
+Topics:
+Python Installation: Install Python and set up the environment.
+IDE Setup: Configure an IDE like VS Code or PyCharm.
+Understanding Python Syntax: Learn basic syntax, indentation, and structure.
+Writing Your First Python Program: Create a simple "Hello, World!" program.
+
+Detailed Explanation and Exercises
+1. Python Installation
+Install Python from python.org.
+Ensure pip (Python package manager) is included.
+Check installation by running python --version in the terminal.
+Exercise:
+Install Python and verify the version.
+Explore the Python documentation for beginners.
+
+2. IDE Setup
+VS Code:
+Install the Python extension.
+Configure settings for debugging.
+PyCharm:
+Set up a Python interpreter.
+Familiarize yourself with the interface.
+Exercise:
+Configure Python in your preferred IDE.
+Create a Python file and run it using the IDE.
+
+3. Understanding Python Syntax
+Indentation: Python relies on indentation for blocks of code.
+python
+Copy code
+if True:
+    print("Indentation is important!")
+Comments: Use # for single-line comments and triple quotes (''') for multi-line comments.
+python
+Copy code
+# This is a single-line comment
+"""
+This is a
+multi-line comment.
+"""
+
+Real-life Analogy (Hindi):
+Python का syntax वैसा ही है जैसे एक orderly और clean notebook. Indentation उस notebook के chapters की तरह है, जो चीज़ों को अलग और readable बनाता है।
+
+Exercise:
+Write a Python script with correct and incorrect indentation to observe errors.
+Add comments explaining the purpose of each line in your script.
+
+4. First Python Program
+Write a "Hello, World!" program:
+python
+Copy code
+print("Hello, World!")
+Experiment with dynamic inputs:
+python
+Copy code
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+Example (Hindi):
+python
+Copy code
+naam = input("अपना नाम दर्ज करें: ")
+print(f"नमस्ते, {naam}!")
+
+
+
+Exercise:
+
+Write a Python program that prints your name, age, and favorite hobby.
+Create a script that asks for user input and prints a personalized greeting.
+Additional Exercises
+Explore Python's REPL (Read-Eval-Print Loop).
+Write a Python script that performs basic arithmetic operations.
+Create a program to display a motivational quote when run.
+Explore Python's built-in help system (help()) to understand print.
+List down key differences between Python 2 and Python 3.
+Write a script to print "Python is amazing!" 5 times.
+Create a program that prints today's date using the datetime module.
+Write a script that displays the Python version installed on your system.
+Experiment with escaping characters in strings (e.g., print("Hello\nWorld!")).
+Set up a virtual environment and explain its purpose.
